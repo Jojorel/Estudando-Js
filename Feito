@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<style>
+
+    body {
+
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        color: antiquewhite; /* comentario css */
+        font: normal 20pt Arial;
+
+    }
+
+    h1 {
+
+        text-align: center;
+        color:green;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+    }
+
+</style>
+
+
+<script>
+
+    // var nome = window.prompt('Qual é seu nome ?') // em JS
+    // window.alert('É eum grande prazer em te conhecer : ' + nome)
+    // var n1 = Number(window.prompt('Digite o um numero : '))
+   //  var n2 = Number(window.prompt('Digite o segundo numero'))
+     
+    // var s = n1 + n2
+    
+    // window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+    // var nome = window.prompt("Qual é seu nome ?")
+    // document.writeln(`Seu nome é <strong>${nome}</strong> esse nome tem de letras ${nome.length}`)
+ 
+    // alert("hello World !")
+    // let js = 'amazing'
+    // if (js === 'amazing') alert('javascript is FUN')
+ 
+
+     //var a = 2
+
+    // const arrowFunction3 = a => a * 3
+
+    // const arrowFunction = b => a * 3
+
+     //var somatorio = arrowFunction.a === arrowFunction3.b ? 'fez somatorio' : ' nao fez somatorio'
+     //alert(somatorio) 
+         
+   // let param1 = 2
+   // let param2 = 2  
+    // var value1 = param1 === param2 ? 'é igual' : 'é diferente'
+     //   alert(value1)
+
+     let obj = {
+         nome: "Jorel ",
+         idade: 45
+         }
+
+         let str = JSON.stringify(obj)
+         str = JSON.parse(str) 
+         alert(str.nome)
+
+         let arr = [1,2,3,4]
+         let arr2 = [4,5,6,7]
+         let arr3 = [...arr, ...arr2]
+         alert(arr3)
+
+
+         for(let i=0; i <= 10; i++){
+          if (i<=3){
+              alert("menor q tres vai")
+          }
+            else if(i){
+              alert("maior que 4")
+          }
+          }
+         
+ </script>
+
+</head>
+<body>
+
+<h1>Fundametos de javascript</h1>
+
+</body>
+
+
+</html>
